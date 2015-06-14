@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/bardzo_jasniutki</item>
+        <item name="colorPrimaryDark">@color/ciemniejszy</item>
+        <item name="colorAccent">@color/ciemniejszy</item>
+        <item name="android:colorBackground">@color/bialy</item>
+
+    </style>
+
+    <style name="AppDialogTheme" parent="Base.Theme.AppCompat.Dialog">
+        <item name="colorPrimary">@color/jasny</item>
+        <item name="colorPrimaryDark">@color/ciemniejszy</item>
+        <item name="colorAccent">@color/ciemniejszy</item>
+        <item name="android:colorBackground">@color/bialy</item>
+
+
+
+    </style>
+
+
+
+
+
+
+</resources>

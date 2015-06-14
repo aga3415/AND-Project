@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="al.taskmasterprojinz.AddGroup">
+
+    <item android:id="@+id/help" android:title="@string/help"
+        android:orderInCategory="400" app:showAsAction="never" />
+
+</menu>
+
+
+<!--<item android:id="@+id/settings" android:title="@string/settings"
+android:orderInCategory="300" app:showAsAction="never" /> -->

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="my_tasks">"Moje"</string>
+    <string name="sended_tasks">"Zlecone"</string>
+    <string name="group_tasks">"Grupowe"</string>
+    <string name="groups">"Grupy"</string>
+    <string name="synchronize">"Synchronizacja"</string>
+    <string name="settings">"Ustawienia"</string>
+    <string name="help">"Pomoc"</string>
+    <string name="logout">"Wyloguj"</string>
+</resources>

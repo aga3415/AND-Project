@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="al.taskmasterprojinz.TasksListViewPattern">
+
+    <TextView
+        android:id="@+id/task_list_header_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+        android:textSize="20dp"
+        android:textColor="@color/my_text"
+        android:text="data bedzie tutaj"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:visibility="gone"
+        />
+
+
+
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/expandableListView"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@id/task_list_header_title"
+        />
+
+<TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:stretchColumns="*"
+    android:background="@color/bardzo_jasniutki">
+
+
+    <TableRow>
+        <ImageButton
+            android:id="@+id/add_task_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/add_task"
+            style="@android:style/Holo.ButtonBar"
+            android:layout_marginTop="10dp"/>
+
+        <ImageButton
+            android:id="@+id/calendar_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/calendar"
+            style="@android:style/Holo.ButtonBar"
+            android:layout_marginTop="10dp"/>
+
+        <ImageButton
+            android:id="@+id/delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/delete"
+            style="@android:style/Holo.ButtonBar"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+    </TableRow>
+
+
+</TableLayout>
+
+
+</RelativeLayout>
